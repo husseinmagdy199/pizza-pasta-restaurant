@@ -1,0 +1,50 @@
+<!DOCTYPE html>
+<html lang="ar">
+<head>
+  <meta charset="UTF-8">
+  <title>اطلب الآن</title>
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+<header>
+  <img src="images/logo.png" alt="شعار المطعم" style="width:80px; height:auto;">
+  <h1>مطعم بيتزا وباستا</h1>
+  <nav>
+    <a href="index.html">الرئيسية</a>
+    <a href="menu.html">القائمة</a>
+    <a href="about.html">من نحن</a>
+    <a href="order.html">اطلب الآن</a>
+    <a href="contact.html">اتصل بنا</a>
+  </nav>
+</header>
+
+<section>
+  <h2>اطلب دلوقتي!</h2>
+  <form>
+    <label>اسمك:</label><br>
+    <input type="text" placeholder="اكتب اسمك" required><br><br>
+
+    <label>رقم تليفونك:</label><br>
+    <input type="text" placeholder="ادخل رقمك" required><br><br>
+
+    <label>طلبك:</label><br>
+    <textarea placeholder="اكتب طلبك هنا..." required></textarea><br><br>
+
+    <button type="submit" style="background-color: #e63946; color: white; padding: 10px 20px; border: none; border-radius: 5px;">اطلب الآن</button>
+  </form>
+</section>
+
+<footer>
+  &copy; 2025 مطعم بيتزا وباستا
+</footer>
+
+<script>
+  window.addEventListener('load', () => {
+    const images = document.querySelectorAll('img');
+    images.forEach(img => img.classList.add('loaded'));
+  });
+</script>
+
+</body>
+</html>

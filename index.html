@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html lang="ar">
+<head>
+  <meta charset="UTF-8">
+  <title>مطعم بيتزا وباستا</title>
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+<header>
+  <img src="images/logo.png" alt="شعار المطعم" style="width:80px; height:auto;">
+  <h1>مطعم بيتزا وباستا</h1>
+  <nav>
+    <a href="index.html">الرئيسية</a>
+    <a href="menu.html">القائمة</a>
+    <a href="about.html">من نحن</a>
+    <a href="order.html">اطلب الآن</a>
+    <a href="contact.html">اتصل بنا</a>
+  </nav>
+</header>
+
+<section>
+  <h2>أهلاً بيك في مطعمنا!</h2>
+  <p>استمتع بألذ أنواع البيتزا والباستا الإيطالية الأصيلة!</p>
+  <img src="images/pizza-home.jpg" alt="بيتزا شهية" style="width:80%;border-radius:10px;margin-top:20px;">
+</section>
+
+<footer>
+  &copy; 2025 مطعم بيتزا وباستا
+</footer>
+
+<script>
+  window.addEventListener('load', () => {
+    const images = document.querySelectorAll('img');
+    images.forEach(img => img.classList.add('loaded'));
+  });
+</script>
+
+</body>
+</html>
